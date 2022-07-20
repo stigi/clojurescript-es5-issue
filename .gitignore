@@ -2,6 +2,10 @@
 .clj-kondo
 .cpcache
 .cljs_node_repl
+.shadow-cljs
+node_modules
 
 main-es5.js
 main-es6.js
+main-shadow-es5.js
+main-shadow-es6.js

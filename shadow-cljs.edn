@@ -1,0 +1,9 @@
+{:source-paths ["src"]
+ :builds {:es5 {:target :node-script
+                :main main/main
+                :output-to "main-shadow-es5.js"
+                :compiler-options {:output-feature-set :es5}}
+          :es6 {:target :node-script
+                :main main/main
+                :output-to "main-shadow-es6.js"
+                :compiler-options {:output-feature-set :es6}}}}
